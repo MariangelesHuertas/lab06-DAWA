@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  ul
+    li
+      strong Correo: 
+        a(href='mailto:' + user.correo)= user.correo
+    li
+      strong LinkedIn:
+        a(href=user.linkedin)= user.linkedin
+    li
+      strong GitHub:
+        a(href=user.github)= user.github

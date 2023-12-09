@@ -1,0 +1,83 @@
+/* main.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  color: #333;
+}
+
+header {
+  background-color: #007BFF; /* Azul brillante */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav.nav-menu {
+  background-color: #007BFF; /* Usar el mismo color azul para el menú */
+}
+
+ul.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+li.nav-item {
+  margin: 0 15px;
+}
+
+a.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a.nav-link:hover {
+  color: #ccc;
+}
+
+/* Estilos específicos de contenido */
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center; /* Centra el texto en h1 */
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center; /* Centra el texto en h2 */
+  color: #007BFF; /* Azul brillante para los títulos */
+}
+
+p {
+  font-size: 16px;
+  text-align: center; /* Centra el texto en párrafos */
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  text-align: center; /* Centra el texto en listas no ordenadas */
+}
+
+/* Estilos para enlaces */
+a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block; /* Añade un display de bloque para centrar enlaces */
+  text-align: center; /* Centra el texto de los enlaces */
+  margin: 10px auto; /* Centra verticalmente los enlaces */
+}
+
+a:hover {
+  color: #0056b3;
+}
+

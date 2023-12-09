@@ -1,0 +1,24 @@
+{
+  "name": "dawa-lab06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoCoaquira/DAWA-Lab06.git"
+  },
+  "author": "leoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoCoaquira/DAWA-Lab06/issues"
+  },
+  "homepage": "https://github.com/LeonardoCoaquira/DAWA-Lab06#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

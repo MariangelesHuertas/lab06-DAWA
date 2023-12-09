@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1= 'Habilidades'
+    ul
+        each habilidad in habilidades
+            li= habilidad
+    h1= 'Tecnologías'
+    ul
+        each tecnologia in tecnologias
+            li= tecnologia
